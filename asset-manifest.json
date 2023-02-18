@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Mosmoyas/RcrDashboard.git/static/css/main.d309990b.css",
+    "main.js": "/Mosmoyas/RcrDashboard.git/static/js/main.7eadf260.js",
+    "static/media/news-1.jpg": "/Mosmoyas/RcrDashboard.git/static/media/news-1.b25b1cb144c4ce27c0ad.jpg",
+    "static/media/greeting.jpg": "/Mosmoyas/RcrDashboard.git/static/media/greeting.435c4ed502a52b10e896.jpg",
+    "static/media/news-3.jpg": "/Mosmoyas/RcrDashboard.git/static/media/news-3.e8fd33f482e784070fd9.jpg",
+    "static/media/team-05.png": "/Mosmoyas/RcrDashboard.git/static/media/team-05.a67ab37f3d46d5570cdb.png",
+    "static/media/activity-02.png": "/Mosmoyas/RcrDashboard.git/static/media/activity-02.9eb39c192c8152181da2.png",
+    "static/media/eps.jpg": "/Mosmoyas/RcrDashboard.git/static/media/eps.d10943e90f1d343af0a8.jpg",
+    "static/media/pdf.png": "/Mosmoyas/RcrDashboard.git/static/media/pdf.c2b0eac7d3b1deb6aa28.png",
+    "static/media/news-2.jpg": "/Mosmoyas/RcrDashboard.git/static/media/news-2.326da3484e905e427497.jpg",
+    "static/media/avi.webp": "/Mosmoyas/RcrDashboard.git/static/media/avi.727fe6f3559fdfe37c1f.webp",
+    "static/media/academy-01.jpg": "/Mosmoyas/RcrDashboard.git/static/media/academy-01.beee1077a8ace8b97a82.jpg",
+    "static/media/dll.jpg": "/Mosmoyas/RcrDashboard.git/static/media/dll.6d9c755c693310f77cc5.jpg",
+    "static/media/activity-01.png": "/Mosmoyas/RcrDashboard.git/static/media/activity-01.62f16bf7f5fbf745d42d.png",
+    "static/media/zip.webp": "/Mosmoyas/RcrDashboard.git/static/media/zip.e57d65e1124969d3248a.webp",
+    "static/media/project.png": "/Mosmoyas/RcrDashboard.git/static/media/project.78ddb10dadedaa83d8fa.png",
+    "static/media/activity-03.webp": "/Mosmoyas/RcrDashboard.git/static/media/activity-03.1cd2a4dca68c8c351ded.webp",
+    "static/media/news-4.jpg": "/Mosmoyas/RcrDashboard.git/static/media/news-4.4da3308e41a2720fc0de.jpg",
+    "index.html": "/Mosmoyas/RcrDashboard.git/index.html",
+    "main.d309990b.css.map": "/Mosmoyas/RcrDashboard.git/static/css/main.d309990b.css.map",
+    "main.7eadf260.js.map": "/Mosmoyas/RcrDashboard.git/static/js/main.7eadf260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d309990b.css",
+    "static/js/main.7eadf260.js"
+  ]
+}
