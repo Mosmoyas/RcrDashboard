@@ -6,12 +6,12 @@ const Projects = () => {
   const projectsData = DataProjects.map((val, key) => {
 
     return (<>
-      <div class="project bg-white p-20 rad-6 p-relative">
-        <span class="date fs-13 c-grey">{val.begindate}</span>
-        <h4 class="m-0">{val.projrctName} </h4>
+      <div className="project bg-white p-20 rad-6 p-relative">
+        <span className="date fs-13 c-grey">{val.begindate}</span>
+        <h4 className="m-0">{val.projrctName} </h4>
 
-        <p class="c-grey mt-10 mb-20 fs-14">{val.description}</p>
-        <div class="team ">
+        <p className="c-grey mt-10 mb-20 fs-14">{val.description}</p>
+        <div className="team ">
 
           {(() => {
             let imagesvales = []
@@ -24,12 +24,12 @@ const Projects = () => {
 
 
         </div>
-        <div class="assignment d-flex">
+        <div className="assignment d-flex">
 
           {(() => {
             let tasks = []
             for (let i = 0; i < val.tasks.length; i++) {
-              tasks.push(<span class="fs-13 rad-6 bg-eee">{val.tasks[i]}</span>)
+              tasks.push(<span className="fs-13 rad-6 bg-eee">{val.tasks[i]}</span>)
 
             }
             return tasks;
@@ -37,12 +37,12 @@ const Projects = () => {
 
 
         </div>
-        <div class="info between-flex">
-          <div class="prog bg-eee">
-            <span class="bg-red" style={{ width: val.achieved }}></span>
+        <div className="info between-flex">
+          <div className="prog bg-eee">
+            <span className="bg-red" style={{ width: val.achieved }}></span>
           </div>
-          <div class="fs-14 c-grey">
-            <i class="fa-solid fa-dollar-sign"></i>{val.price}
+          <div className="fs-14 c-grey">
+            <i className="fa-solid fa-dollar-sign"></i>{val.price}
           </div>
         </div>
       </div></>)
@@ -50,7 +50,7 @@ const Projects = () => {
   return (
     <>
       <PageHead>Projects</PageHead>
-      <div class="projects-page  d-grid m-20 gap-20">
+      <div className="projects-page  d-grid m-20 gap-20">
 
         {projectsData}
 
