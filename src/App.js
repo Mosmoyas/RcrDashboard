@@ -1,4 +1,3 @@
-import './App.css';
 import { Container } from './Components/index';
 import { Sidebar } from "./parts/index"
 import { Content } from "./parts/index"
@@ -13,6 +12,8 @@ import { Files } from "./pages/index"
 import { Friends } from "./pages/index"
 import { Plans } from "./pages/index"
 
+import './App.css';
+import './index.js'
 
 
 
