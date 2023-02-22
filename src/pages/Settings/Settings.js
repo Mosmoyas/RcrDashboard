@@ -174,7 +174,7 @@ const Settings = () => {
             <input type="radio" name="servers" id="server-three" />
             <div className="server mb-15 rad-10 w-full  ">
               <label className="d-block m-15" htmlFor="server-three">
-                <i classNameName="fa-solid fa-server d-block mb-10"></i>
+                <i className="fa-solid fa-server d-block mb-10"></i>
                 Sigma</label>
             </div>
           </div>

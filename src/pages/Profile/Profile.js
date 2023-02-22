@@ -29,7 +29,7 @@ const Profile = () => {
               {(() => {
                 let stars = []
                 for (let i = 0; i < 6; i++) {
-                  stars.push(<i className="fa-solid fa-star c-orange"></i>)
+                  stars.push(<i key={i} className="fa-solid fa-star c-orange"></i>)
 
                 }
                 return stars;
@@ -58,7 +58,7 @@ const Profile = () => {
 
               <div className="fs-14">
                 <label>
-                  <input checked className="toggle-checkbox" type="checkbox" name="" id="" />
+                  <input defaultChecked className="toggle-checkbox" type="checkbox" name="" id="" />
                   <div className="toggle-switch"></div>
                 </label>
               </div>
@@ -82,7 +82,7 @@ const Profile = () => {
 
               <div className="fs-14">
                 <label>
-                  <input checked className="toggle-checkbox" type="checkbox" name="" id="" />
+                  <input defaultChecked className="toggle-checkbox" type="checkbox" name="" id="" />
                   <div className="toggle-switch"></div>
                 </label>
               </div>
@@ -106,7 +106,7 @@ const Profile = () => {
 
               <div className="fs-14">
                 <label>
-                  <input checked className="toggle-checkbox" type="checkbox" name="" id="" />
+                  <input defaultChecked className="toggle-checkbox" type="checkbox" name="" id="" />
                   <div className="toggle-switch"></div>
                 </label>
               </div>
@@ -130,7 +130,7 @@ const Profile = () => {
 
               <div className="fs-14">
                 <label>
-                  <input checked className="toggle-checkbox" type="checkbox" name="" id="" />
+                  <input defaultChecked className="toggle-checkbox" type="checkbox" name="" id="" />
                   <div className="toggle-switch"></div>
                 </label>
               </div>

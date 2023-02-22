@@ -16,7 +16,7 @@ const Projects = () => {
           {(() => {
             let imagesvales = []
             for (let i = 0; i < val.team.length; i++) {
-              imagesvales.push(<a href="/#" ><img src={val.team[i]} id={val.id} alt="1" /></a>)
+              imagesvales.push(<a key={i} href="/#" ><img src={val.team[i]} id={val.id} alt="1" /></a>)
 
             }
             return imagesvales;

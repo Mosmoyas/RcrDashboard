@@ -1,11 +1,11 @@
-import "./Files.css"
 import { PageHead } from '../../Components'
 import DataFiles from '../../Data/DataFiles'
+import "./Files.css"
 const Files = () => {
 
-  const FileData = DataFiles.map((val) => {
+  const FileData = DataFiles.map((val,index) => {
     return (<>
-      <div className="file bg-white p-10 rad-10" id={val.id}>
+      <div key={index}  className="file bg-white p-10 rad-10" id={val.id}>
 
         <i className="fa-solid fa-download c-grey p-absolute"></i>
         <div className="icon txt-c">

@@ -6,7 +6,7 @@ const Courses = () => {
 
   const Courses = CoursesData.map((val, key) => {
     return (<>
-      <div className="course bg-white p-20 rad-6 p-relative">
+      <div key={key} className="course bg-white p-20 rad-6 p-relative">
 
         <img className="cover" src={val.imageCover} alt="" />
         <img className="instructor" src={val.imageInstructor} alt="" />

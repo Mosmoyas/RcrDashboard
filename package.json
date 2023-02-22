@@ -2,8 +2,8 @@
   "name": "rjs-dashboard",
   "version": "0.1.0",
   "private": true,
-    "homepage": "https://github.com/Mosmoyas/RcrDashboard.git",
-  "dependencies": {
+  "homepage": "https://github.com/Mosmoyas/RcrDashboard.git",
+    "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,7 +17,6 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
     "gh-pages": "^5.0.0"
   },
   "proxy": "http://localhost:3000"
